@@ -5,6 +5,9 @@ import android.os.Bundle
 import com.katheryn.native160420038.R
 
 class LoginActivity : AppCompatActivity() {
+    var username = "test"
+    var password = "test"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
